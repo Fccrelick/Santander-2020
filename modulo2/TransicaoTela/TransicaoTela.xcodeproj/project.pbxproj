@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ECFBB53251C043200DE48DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECFBB52251C043200DE48DB /* AppDelegate.swift */; };
+		5ECFBB55251C043200DE48DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECFBB54251C043200DE48DB /* SceneDelegate.swift */; };
+		5ECFBB57251C043200DE48DB /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECFBB56251C043200DE48DB /* FirstVC.swift */; };
+		5ECFBB5A251C043200DE48DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ECFBB58251C043200DE48DB /* Main.storyboard */; };
+		5ECFBB5C251C043400DE48DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ECFBB5B251C043400DE48DB /* Assets.xcassets */; };
+		5ECFBB5F251C043400DE48DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ECFBB5D251C043400DE48DB /* LaunchScreen.storyboard */; };
+		5ECFBB6A251C043500DE48DB /* TransicaoTelaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECFBB69251C043500DE48DB /* TransicaoTelaTests.swift */; };
+		5ECFBB75251C043500DE48DB /* TransicaoTelaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECFBB74251C043500DE48DB /* TransicaoTelaUITests.swift */; };
+		5ECFBB89251C140B00DE48DB /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECFBB88251C140B00DE48DB /* SecondVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5ECFBB66251C043500DE48DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ECFBB47251C043100DE48DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ECFBB4E251C043200DE48DB;
+			remoteInfo = TransicaoTela;
+		};
+		5ECFBB71251C043500DE48DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ECFBB47251C043100DE48DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ECFBB4E251C043200DE48DB;
+			remoteInfo = TransicaoTela;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5ECFBB4F251C043200DE48DB /* TransicaoTela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransicaoTela.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ECFBB52251C043200DE48DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5ECFBB54251C043200DE48DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5ECFBB56251C043200DE48DB /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		5ECFBB59251C043200DE48DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5ECFBB5B251C043400DE48DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5ECFBB5E251C043400DE48DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5ECFBB60251C043400DE48DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ECFBB65251C043500DE48DB /* TransicaoTelaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransicaoTelaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ECFBB69251C043500DE48DB /* TransicaoTelaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransicaoTelaTests.swift; sourceTree = "<group>"; };
+		5ECFBB6B251C043500DE48DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ECFBB70251C043500DE48DB /* TransicaoTelaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransicaoTelaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ECFBB74251C043500DE48DB /* TransicaoTelaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransicaoTelaUITests.swift; sourceTree = "<group>"; };
+		5ECFBB76251C043500DE48DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ECFBB88251C140B00DE48DB /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ECFBB4C251C043200DE48DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECFBB62251C043500DE48DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECFBB6D251C043500DE48DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ECFBB46251C043100DE48DB = {
+			isa = PBXGroup;
+			children = (
+				5ECFBB51251C043200DE48DB /* TransicaoTela */,
+				5ECFBB68251C043500DE48DB /* TransicaoTelaTests */,
+				5ECFBB73251C043500DE48DB /* TransicaoTelaUITests */,
+				5ECFBB50251C043200DE48DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5ECFBB50251C043200DE48DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ECFBB4F251C043200DE48DB /* TransicaoTela.app */,
+				5ECFBB65251C043500DE48DB /* TransicaoTelaTests.xctest */,
+				5ECFBB70251C043500DE48DB /* TransicaoTelaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ECFBB51251C043200DE48DB /* TransicaoTela */ = {
+			isa = PBXGroup;
+			children = (
+				5ECFBB8D251C141200DE48DB /* Views */,
+				5ECFBB52251C043200DE48DB /* AppDelegate.swift */,
+				5ECFBB54251C043200DE48DB /* SceneDelegate.swift */,
+				5ECFBB58251C043200DE48DB /* Main.storyboard */,
+				5ECFBB5B251C043400DE48DB /* Assets.xcassets */,
+				5ECFBB5D251C043400DE48DB /* LaunchScreen.storyboard */,
+				5ECFBB60251C043400DE48DB /* Info.plist */,
+			);
+			path = TransicaoTela;
+			sourceTree = "<group>";
+		};
+		5ECFBB68251C043500DE48DB /* TransicaoTelaTests */ = {
+			isa = PBXGroup;
+			children = (
+				5ECFBB69251C043500DE48DB /* TransicaoTelaTests.swift */,
+				5ECFBB6B251C043500DE48DB /* Info.plist */,
+			);
+			path = TransicaoTelaTests;
+			sourceTree = "<group>";
+		};
+		5ECFBB73251C043500DE48DB /* TransicaoTelaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5ECFBB74251C043500DE48DB /* TransicaoTelaUITests.swift */,
+				5ECFBB76251C043500DE48DB /* Info.plist */,
+			);
+			path = TransicaoTelaUITests;
+			sourceTree = "<group>";
+		};
+		5ECFBB8D251C141200DE48DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5ECFBB56251C043200DE48DB /* FirstVC.swift */,
+				5ECFBB88251C140B00DE48DB /* SecondVC.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5ECFBB4E251C043200DE48DB /* TransicaoTela */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ECFBB79251C043500DE48DB /* Build configuration list for PBXNativeTarget "TransicaoTela" */;
+			buildPhases = (
+				5ECFBB4B251C043200DE48DB /* Sources */,
+				5ECFBB4C251C043200DE48DB /* Frameworks */,
+				5ECFBB4D251C043200DE48DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransicaoTela;
+			productName = TransicaoTela;
+			productReference = 5ECFBB4F251C043200DE48DB /* TransicaoTela.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5ECFBB64251C043500DE48DB /* TransicaoTelaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ECFBB7C251C043500DE48DB /* Build configuration list for PBXNativeTarget "TransicaoTelaTests" */;
+			buildPhases = (
+				5ECFBB61251C043500DE48DB /* Sources */,
+				5ECFBB62251C043500DE48DB /* Frameworks */,
+				5ECFBB63251C043500DE48DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ECFBB67251C043500DE48DB /* PBXTargetDependency */,
+			);
+			name = TransicaoTelaTests;
+			productName = TransicaoTelaTests;
+			productReference = 5ECFBB65251C043500DE48DB /* TransicaoTelaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5ECFBB6F251C043500DE48DB /* TransicaoTelaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ECFBB7F251C043500DE48DB /* Build configuration list for PBXNativeTarget "TransicaoTelaUITests" */;
+			buildPhases = (
+				5ECFBB6C251C043500DE48DB /* Sources */,
+				5ECFBB6D251C043500DE48DB /* Frameworks */,
+				5ECFBB6E251C043500DE48DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ECFBB72251C043500DE48DB /* PBXTargetDependency */,
+			);
+			name = TransicaoTelaUITests;
+			productName = TransicaoTelaUITests;
+			productReference = 5ECFBB70251C043500DE48DB /* TransicaoTelaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ECFBB47251C043100DE48DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					5ECFBB4E251C043200DE48DB = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					5ECFBB64251C043500DE48DB = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 5ECFBB4E251C043200DE48DB;
+					};
+					5ECFBB6F251C043500DE48DB = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 5ECFBB4E251C043200DE48DB;
+					};
+				};
+			};
+			buildConfigurationList = 5ECFBB4A251C043100DE48DB /* Build configuration list for PBXProject "TransicaoTela" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5ECFBB46251C043100DE48DB;
+			productRefGroup = 5ECFBB50251C043200DE48DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5ECFBB4E251C043200DE48DB /* TransicaoTela */,
+				5ECFBB64251C043500DE48DB /* TransicaoTelaTests */,
+				5ECFBB6F251C043500DE48DB /* TransicaoTelaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ECFBB4D251C043200DE48DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECFBB5F251C043400DE48DB /* LaunchScreen.storyboard in Resources */,
+				5ECFBB5C251C043400DE48DB /* Assets.xcassets in Resources */,
+				5ECFBB5A251C043200DE48DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECFBB63251C043500DE48DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECFBB6E251C043500DE48DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ECFBB4B251C043200DE48DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECFBB57251C043200DE48DB /* FirstVC.swift in Sources */,
+				5ECFBB53251C043200DE48DB /* AppDelegate.swift in Sources */,
+				5ECFBB89251C140B00DE48DB /* SecondVC.swift in Sources */,
+				5ECFBB55251C043200DE48DB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECFBB61251C043500DE48DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECFBB6A251C043500DE48DB /* TransicaoTelaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECFBB6C251C043500DE48DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECFBB75251C043500DE48DB /* TransicaoTelaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5ECFBB67251C043500DE48DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ECFBB4E251C043200DE48DB /* TransicaoTela */;
+			targetProxy = 5ECFBB66251C043500DE48DB /* PBXContainerItemProxy */;
+		};
+		5ECFBB72251C043500DE48DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ECFBB4E251C043200DE48DB /* TransicaoTela */;
+			targetProxy = 5ECFBB71251C043500DE48DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5ECFBB58251C043200DE48DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ECFBB59251C043200DE48DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5ECFBB5D251C043400DE48DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ECFBB5E251C043400DE48DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5ECFBB77251C043500DE48DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5ECFBB78251C043500DE48DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5ECFBB7A251C043500DE48DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TransicaoTela/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernandocrelick.TransicaoTela;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5ECFBB7B251C043500DE48DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TransicaoTela/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernandocrelick.TransicaoTela;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5ECFBB7D251C043500DE48DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TransicaoTelaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernandocrelick.TransicaoTelaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TransicaoTela.app/TransicaoTela";
+			};
+			name = Debug;
+		};
+		5ECFBB7E251C043500DE48DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TransicaoTelaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernandocrelick.TransicaoTelaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TransicaoTela.app/TransicaoTela";
+			};
+			name = Release;
+		};
+		5ECFBB80251C043500DE48DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TransicaoTelaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernandocrelick.TransicaoTelaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TransicaoTela;
+			};
+			name = Debug;
+		};
+		5ECFBB81251C043500DE48DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TransicaoTelaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernandocrelick.TransicaoTelaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TransicaoTela;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ECFBB4A251C043100DE48DB /* Build configuration list for PBXProject "TransicaoTela" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ECFBB77251C043500DE48DB /* Debug */,
+				5ECFBB78251C043500DE48DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ECFBB79251C043500DE48DB /* Build configuration list for PBXNativeTarget "TransicaoTela" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ECFBB7A251C043500DE48DB /* Debug */,
+				5ECFBB7B251C043500DE48DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ECFBB7C251C043500DE48DB /* Build configuration list for PBXNativeTarget "TransicaoTelaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ECFBB7D251C043500DE48DB /* Debug */,
+				5ECFBB7E251C043500DE48DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ECFBB7F251C043500DE48DB /* Build configuration list for PBXNativeTarget "TransicaoTelaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ECFBB80251C043500DE48DB /* Debug */,
+				5ECFBB81251C043500DE48DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5ECFBB47251C043100DE48DB /* Project object */;
+}
