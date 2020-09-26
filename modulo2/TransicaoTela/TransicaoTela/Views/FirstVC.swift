@@ -31,5 +31,31 @@ class FirstVC: UIViewController {
         print("viewDidDisappear")
     }
 
+    @IBAction func tappedLoginButton(_ sender: UIButton) {
+    
+      /* Quebra o app pois tenta acessar a IBOutlet antes dela ser inicializada por causa da linha 41
+
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        let vc: DetailVC? = storyboard.instantiateViewController(identifier: "DetailVC") as? DetailVC
+        
+        vc?.myLabel.text = "Fernando"
+        
+        self.present(vc ?? UIViewController(), animated: true, completion: nil)
+        */
+        
+        
+        
+        self.performSegue(withIdentifier: "DetailVC", sender: "Fernando")
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc: DetailVC? = segue.destination as? DetailVC
+        
+        vc?.view.backgroundColor = .red
+        vc?.myLabel.text = sender as? String
+    }
+    
 }
 
