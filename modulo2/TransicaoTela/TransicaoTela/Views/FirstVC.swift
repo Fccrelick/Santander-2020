@@ -59,3 +59,4 @@ class FirstVC: UIViewController {
     
 }
 
+//  nome cpf email nascimento endereço(numero, bairro, cidade, estado)

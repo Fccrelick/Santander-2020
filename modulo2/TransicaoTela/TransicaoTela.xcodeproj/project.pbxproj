@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E68F10A25229ADE0061B047 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E68F10925229ADE0061B047 /* Detail.storyboard */; };
 		5E9DC3EF251EB13E00BBD1C5 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9DC3EE251EB13E00BBD1C5 /* DetailVC.swift */; };
 		5ECFBB53251C043200DE48DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECFBB52251C043200DE48DB /* AppDelegate.swift */; };
 		5ECFBB55251C043200DE48DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECFBB54251C043200DE48DB /* SceneDelegate.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E68F10925229ADE0061B047 /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Detail.storyboard; path = TransicaoTela/Detail.storyboard; sourceTree = SOURCE_ROOT; };
 		5E9DC3EE251EB13E00BBD1C5 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		5ECFBB4F251C043200DE48DB /* TransicaoTela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransicaoTela.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ECFBB52251C043200DE48DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				5ECFBB52251C043200DE48DB /* AppDelegate.swift */,
 				5ECFBB54251C043200DE48DB /* SceneDelegate.swift */,
 				5ECFBB58251C043200DE48DB /* Main.storyboard */,
+				5E68F10925229ADE0061B047 /* Detail.storyboard */,
 				5ECFBB5B251C043400DE48DB /* Assets.xcassets */,
 				5ECFBB5D251C043400DE48DB /* LaunchScreen.storyboard */,
 				5ECFBB60251C043400DE48DB /* Info.plist */,
@@ -248,6 +251,7 @@
 				5ECFBB5F251C043400DE48DB /* LaunchScreen.storyboard in Resources */,
 				5ECFBB5C251C043400DE48DB /* Assets.xcassets in Resources */,
 				5ECFBB5A251C043200DE48DB /* Main.storyboard in Resources */,
+				5E68F10A25229ADE0061B047 /* Detail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
